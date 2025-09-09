@@ -14,52 +14,53 @@
 </head>
 <body>
     <div class="container">
-    </div class="w-50" style="margin: 0 auto">
-        <h3 class="fw-bold text-center">Agenda de Contactos</h3>
-        <form id="frmContactos">
-            <div class="mt-2">
-                <label for="txtId" class="fw-bold">Identificacion</label>
-                <input type="text" name="txtId" id="txtId" class="form-control" placeholder="Identificacion">
-            </div>
-            <div class="mt-2">
-                <label for="txtNombre" class="fw-bold">Nombre</label>
-                <input type="text" name="txtNombre" id="txtNombre" class="form-control" placeholder="Nombre">
-            </div>
-            <div class="mt-2">
-                <label for="txtApellido" class="fw-bold">Apellido</label>
-                <input type="text" name="txtApellido" id="txtApellido" class="form-control" placeholder="Apellido">
-            </div>
-            <div class="mt-2">
-                <label for="txtCorreo" class="fw-bold">Correo</label>
-                <input type="text" name="txtCorreo" id="txtCorreo" class="form-control" placeholder="Correo">
-            </div>
-            <div class="mt-2">
-                <label for="txtCelular" class="fw-bold">Celular</label>
-                <input type="text" name="txtCelular" id="txtCelular" class="form-control" placeholder="Celular">
-            </div>
-            <div class="mt-2">
-                <button id="btnAgregar" type="button" class="btn btn-dark">Agregar</button>
-                <button id="btnConsultar" type="button" class="btn btn-dark">Consultar</button>
-                <button id="btnActualizar" type="button" class="btn btn-dark">Actualizar</button>
-                <button id="btnEliminar" type="button" class="btn btn-danger">Eliminar</button>
-            </div>
-        </form>
-    </div>
-    <div class="mt3">
-        <table class="table table-bordered">
-            <thead class="table-dark">
-                <tr class="text-center">
-                    <th>Identificacion</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Correo</th>
-                    <th>Celular</th>
-                </tr>
-            </thead>
-            <tbody id="listaContactos">
+        <div class="w-50" style="margin: 0 auto">
+            <h3 class="fw-bold text-center">Agenda de Contactos</h3>
+            <form id="frmContactos">
+                <div class="mt-2">
+                    <label for="txtId" class="fw-bold">Identificacion</label>
+                    <input type="text" name="txtId" id="txtId" class="form-control" placeholder="Identificacion">
+                </div>
+                <div class="mt-2">
+                    <label for="txtNombre" class="fw-bold">Nombre</label>
+                    <input type="text" name="txtNombre" id="txtNombre" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="mt-2">
+                    <label for="txtApellido" class="fw-bold">Apellido</label>
+                    <input type="text" name="txtApellido" id="txtApellido" class="form-control" placeholder="Apellido">
+                </div>
+                <div class="mt-2">
+                    <label for="txtCorreo" class="fw-bold">Correo</label>
+                    <input type="text" name="txtCorreo" id="txtCorreo" class="form-control" placeholder="Correo">
+                </div>
+                <div class="mt-2">
+                    <label for="txtCelular" class="fw-bold">Celular</label>
+                    <input type="text" name="txtCelular" id="txtCelular" class="form-control" placeholder="Celular">
+                </div>
+                <div class="mt-2">
+                    <button id="btnAgregar" type="button" class="btn btn-dark">Agregar</button>
+                    <button id="btnConsultar" type="button" class="btn btn-dark">Consultar</button>
+                    <button id="btnActualizar" type="button" class="btn btn-dark">Actualizar</button>
+                    <button id="btnEliminar" type="button" class="btn btn-danger">Eliminar</button>
+                </div>
+            </form>
+        </div>
+        <div class="mt3">
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr class="text-center">
+                        <th>Identificacion</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Correo</th>
+                        <th>Celular</th>
+                    </tr>
+                </thead>
+                <tbody id="listaContactos">
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </div>
 </body>
 </html>
